@@ -25,7 +25,7 @@ public class Test_third {
 		t.set_ifvalue(if_value);
 		t.set_number(number);
 	
-		System.out.println("The brand name is :"+t.get_brand());
+		System.out.println(" The brand name is :"+t.get_brand());
 		System.out.println("The boolean value is :"+t.get_ifvalue());
 		System.out.println("The numeral value is :"+t.get_number());
 		

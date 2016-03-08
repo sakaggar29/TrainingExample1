@@ -12,7 +12,9 @@ public class TestSuperSub {
 		// TODO Auto-generated method stub
 		
 		superclass s=func3();
-		
+		SubClass s1=(SubClass)s;
+		System.out.println(s1.hashCode());
+		System.out.println(s.hashCode());
 		
 
 	}
